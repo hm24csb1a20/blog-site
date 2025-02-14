@@ -1,0 +1,217 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-size:1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    
+    text-align: center;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.nav div{
+    padding: 2vh;
+    transition: ease-out .3s;
+}
+.nav div:hover{
+    border-bottom: 7px solid #333333;
+    transition: all ease-in-out .3s;
+}
+
+.photo-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    overflow: hidden;
+    margin-bottom: 3vh;
+}
+
+.photo{
+    width:100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.photo img {
+    height:100%;
+
+    overflow: hidden;
+    width: auto; 
+    object-fit: cover; /
+}
+.overlay {
+    position: absolute;
+    top: 24vh;
+    left: 0;
+    height: 40vh;
+    width: 100%; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 10px;
+    transition: background-color ease 1s;
+}
+
+.content{
+    color: white;
+    font-size: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    /* display: inline-block; */
+    width:7vw;
+    height: auto;
+}
+
+
+.hero{
+    background-color: rgb(210, 141, 12);
+    width: 65%;
+    height: 30vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.herobanner{
+    font-size: 2rem;
+    font-family: monospace;
+
+}
+.herobannerstyle{
+    display: inline-block;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.herobutton button{
+    background-color: purple;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.herobutton button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.herobutton button a:active {
+    color: red; /* Change color when clicked (active) */
+
+}
+
+.herobutton button a:focus {
+    outline: none; /* Remove the focus outline (optional) */
+    color: #ffffee; 
+}
+.blogmaincontainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+    
+}
+.blogmaincontainer .box{
+    border:4px dotted aqua;
+    border-radius: 7px;
+    height: 25vh;
+    padding: 5px;
+    position:relative;
+    display: flex;
+    gap: 5px;
+}
+.blogmaincontainer .box img{
+    width: auto;
+    height: 25vh;
+    overflow: auto;
+    transition: ease-out .3s;
+}
+.blogmaincontainer .box img:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out .3s;
+}
+.categories{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    margin-bottom: 4vh;
+}
+.circle:nth-child(1){
+    background-color: #8ecae6;
+}
+.circle:nth-child(1):hover{
+    background-color: #ffb703;
+    transition:  all ease-in-out .3s;
+    transform: scale(1.2);
+    
+}
+.circle:nth-child(2){
+    background-color: #219ebc;
+}
+.circle:nth-child(2):hover{
+    background-color: #fb8500;
+    transition:  all ease-in-out .3s;
+    transform: scale(1.2);
+}
+.circle:nth-child(3){
+    background-color: #023047;
+}
+.circle:nth-child(3):hover{
+    background-color: #000000;
+    transition:  all ease-in-out .3s;
+    transform: scale(1.2);
+}
+.circle:nth-child(4){
+    background-color: #ffb703;
+}
+.circle:nth-child(4):hover{
+    background-color: #219ebc;
+    transition:  all ease-in-out .3s;
+    transform: scale(1.2);
+}
+.circle:nth-child(5){
+    background-color: #fb8500;
+}
+.circle:nth-child(5):hover{
+    background-color: #8ecae6;
+    transition:  all ease-in-out .3s;
+    transform: scale(1.2);
+}
+.footer{
+    background-color: #01151f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
