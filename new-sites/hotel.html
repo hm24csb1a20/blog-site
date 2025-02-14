@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+    <link rel="stylesheet" href="hotelcss.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <form action="https://httpbin.org/post" method="post">
+            <div class="container">
+                <label for="hotel">
+                    Enter the hotel you want:
+                    <select name="hotel" id="hotel">
+                        <option value="thousand">
+                            Thousand Pillar
+                        </option>
+                        <option value="ramappa">
+                            ramappa     
+                        </option>
+                        <option value="warangal-fort">
+                            warangal-fort
+                        </option>
+                        <option value="kush">kush mahal</option>
+                        <option value="ghanpur">Ghanpur group of temples</option>
+                    </select>
+                </label>
+            </div>
+            <div class="container">
+                <label for="phone">
+                    enter your phone number
+                    <input type="number" name="phone" id="phone">
+                </label>
+            </div>
+            <div class="container">
+                <label for="entery">
+                    enter when you want to enter:
+                    <input type="date">
+                </label>
+            </div>
+            <div class="container">
+                <label for="exit">
+                    enter the date to exit:
+                    <input type="date">
+                </label>
+            </div>
+            <div class="container">
+                <label for="submit">
+                    <input type="submit">
+                </label>
+                <label for="reset">
+                    <input type="reset">
+                </label>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
